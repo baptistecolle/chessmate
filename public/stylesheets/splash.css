@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#button-two{
+    font-size: 50px;
+    border-radius:15px;
+    margin-left:700px;
+    background-color: #bbbbbb;
+    transition: background-color 1s ease;
+}
+
+#button-two:hover{
+    background-color: #dc0000;
+    color: white;
+    cursor:pointer;
+}
+
+cite{
+    font-size: 70px;
+    position:relative;
+    left:350px;
+}
+
+#intro{
+    color:grey;
+}
+
+#final{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-right: 70%;
+    padding-left :10px;
+    background-color: rgb(214 214 214);
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

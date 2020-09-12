@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>ChessMate</title> 
+        <link rel="stylesheet" href="stylesheets/game.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+      </head>
+      
+      <body>
+        <main>
+          <h1 id="headd"><cite>Chess Game</cite></h1>
+
+          <h3 id="status">waiting for server connection</h3>
+        
+          <div id="roomDiv" style="visibility: hidden">
+            
+            <h2 id="steps">Please enter the id provided to<br>you by your opponent in the<br>box below.</h2><br><br>
+            <h3 id="our-id">ID: <span id="myself"></span></h3>
+
+            <input  name="room" id="room" placeholder="Room" ><br><br>
+
+            <button id="button-one" onclick="join()">Join</button>
+
+          </div>
+          
+          
+          <div id="gameElement" style="visibility: hidden">
+
+            <table id="chessTable" cellpadding="0" cellspacing="0"></table>
+
+           <div id="last">
+            <h3 id="turn"></h3>
+            <h3>You're playing: <span id = "color"> Black</span></h3>
+
+            <h3>Pieces captured:</h3>
+            <h3 id = "capturedBlack"> black</h3>
+            <h3 id = "capturedWhite"> black</h3>
+            <h3> Time spend:</h3>
+            <h3 id = "time"></h3>
+
+          </div>
+
+          <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav"  autostart="false" autoplay="false" ></audio>
+            
+        </main>
+
+        
+
+      </body>
+
+      <script src="/javascripts/game.js"></script>
+
+</html>

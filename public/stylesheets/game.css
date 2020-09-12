@@ -1,0 +1,94 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#steps{
+  margin-left:600px;
+}
+#button-one{
+  font-size: 30px;
+  border-radius: 12px;
+  background-color: rgb(229, 255, 79);
+  position: relative;
+  left:700px;
+  background-color: slateblue;
+  transition: background-color 1s ease;
+
+}
+#button-one:hover{
+  background-color: blueviolet;
+  color: white;
+  cursor:pointer;
+
+}
+#button-one:active{
+  background-color: rgb(255, 0, 0);
+}
+#room{
+  width: 20%;
+  height: 5%;
+  margin-left:600px;
+}
+#headd{
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-left:600px;
+}
+#our-id{
+  margin-left:600px;
+}
+#last{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding-left :10px;
+  margin-left: 900px;
+  margin-top: -700px;
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  word-wrap: break-word;
+  min-width:250px
+}
+
+a {
+  color:#000;
+  display:block;
+  font-size:60px;
+  height:80px;
+  position:relative;
+  text-decoration:none;
+  text-shadow:0 1px #fff;
+  width:80px;
+
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#chessTable { border:5px solid #333;
+  margin-left:100px;
+  margin-top: 50px;
+}
+
+#chessTable td {
+  background:#fff;
+  height:80px;
+  text-align:center;
+  vertical-align:middle;
+  width:80px;
+  font-size:50px;
+}
+#chessTable tr:nth-child(odd) td:nth-child(odd),
+#chessTable tr:nth-child(even) td:nth-child(even) {
+  background:#ccc;
+}
+
+tr td:first-child,
+tr:last-child td
+{
+  background:#fff !important;
+  box-shadow:none !important;
+  font-size:40px;
+}
